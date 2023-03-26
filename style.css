@@ -1,0 +1,236 @@
+body {
+    
+    color: #747474;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    padding-top: 8px;
+    -webkit-font-smoothing: antialiased;
+    
+    
+}
+
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:visited {
+    color: grey;
+}
+
+
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+    
+}
+
+.docplanner-header{
+    display: flex;
+    justify-content: space-around;
+    padding : 10px
+ 
+}
+.introduction-title {
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    color: #00b39b;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+   
+}
+
+
+
+
+
+.introduction-text {
+
+   display: flex; 
+   justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.introduction-text {
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+
+.introduction-paragraph {
+    margin: 10px;
+}
+
+.main-nav .is-current {
+    color: #00b39b;
+}
+.main-nav a {
+    color: #ababab;
+    padding: 0 0.6em;
+}
+
+a {
+    background-color: transparent;
+    
+}
+.main-nav {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+
+    }
+ 
+    .section-2 {
+        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+      }
+ 
+    
+    .patients {
+        background-color: #00ccb1;
+
+    }
+
+    .doctors {
+
+        background-color: #3d83df;
+    }
+
+    .clinics {
+        background-color: #1b2734;
+
+    }
+    .box {
+        height: 300px;
+        border-radius: 10px;
+        padding: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+    }
+    .box p {
+        font-size: 20px;
+
+    }
+    select {
+        border: none;
+        background-color: transparent;
+        text-decoration: underline;
+        color: white;
+        font-size: 20px;
+    }
+
+    option{
+        color: grey;
+    }
+
+    .section-2 {
+        width: 70%;
+        margin: auto;
+    }
+
+.section-3 {
+    background-color: #dff8f6;
+    height: 600px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.plateform {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    width: 70%;
+    margin: auto;
+}
+.stats h3 {
+    color: #00b39b;
+    font-weight: 100;
+width: 70%;
+}
+.stats p {
+    color: gray;
+    width: 70%;
+}
+.logo {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+}
+
+
+
+
+
+    @media ( max-width:500px) {
+
+        .introduction-text{
+            display: grid;
+            grid-template-columns: 100%;
+        }
+
+        .introduction {
+           width: 100%;
+           
+        }
+        .introduction-title h1 {
+            text-align: center;
+        }
+
+        .section-2 {
+        
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 20px;
+            
+          }
+          .section-2{
+            width: 100%;
+          }
+          
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+   
+
+    
+
+
+    
+
+    
+    
+
+   
+
+
+
